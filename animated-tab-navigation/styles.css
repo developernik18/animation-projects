@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #444;
+  border: 1px solid #333;
+  margin: 0 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.tab:hover {
+  background-color: #555;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content p {
+  font-size: 18px;
+}
