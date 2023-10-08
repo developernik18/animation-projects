@@ -1,0 +1,13 @@
+#map-container {
+  width: 500px;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+path {
+  fill: #ccc; /* Default color */
+}
+
+path:hover {
+  fill: #ff0000; /* Color on hover */
+}
