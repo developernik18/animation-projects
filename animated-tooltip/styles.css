@@ -1,0 +1,29 @@
+.tooltip-container {
+  position: relative;
+}
+
+.target-element {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 200px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.tooltip.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
