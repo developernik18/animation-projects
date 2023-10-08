@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    border-color: #3498db transparent;
+    transform: rotate(0deg);
+  }
+  50% {
+    border-color: #e74c3c transparent;
+    transform: rotate(720deg);
+  }
+  100% {
+    border-color: #3498db transparent;
+    transform: rotate(1440deg);
+  }
+}
