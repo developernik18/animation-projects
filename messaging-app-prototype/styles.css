@@ -1,0 +1,63 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.iphone-frame {
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 375px;
+  height: 812px;
+  padding: 20px;
+  margin: 20px;
+  overflow-y: scroll;
+}
+
+.chat--list__wrapper {
+  padding: 20px;
+}
+
+.chat--search {
+  margin-bottom: 10px;
+}
+
+.chat--search input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.chat--list {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat--item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat--item__left {
+  margin-right: 10px;
+}
+
+.chat--item__left img {
+  border-radius: 50%;
+}
+
+.chat--item__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat--item__right p {
+  margin: 0;
+}
+
+.chat--status-text {
+  display: none;
+  padding: 10px;
+}
