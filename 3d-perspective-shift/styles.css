@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  perspective: 1000px; /* Adjust the perspective value for the desired effect */
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: rotateY(50deg); /* Adjust the rotation angle as needed */
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  background-color: #3498db;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform-origin: right center;
+  transform: rotateY(0deg); /* Initial rotation angle */
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
